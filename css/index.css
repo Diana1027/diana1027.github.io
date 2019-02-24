@@ -1,0 +1,29 @@
+.logo {
+  height: 50px;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #000000;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em;
+}
+
+.nav-link:hover {
+  color: #a98ff9;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background: #a98ff9;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
