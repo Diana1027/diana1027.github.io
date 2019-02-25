@@ -27,3 +27,7 @@
 .navbar-collapse {
   justify-content: flex-end;
 }
+
+#js-rotating {
+  color: #a98ff9;
+}

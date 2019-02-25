@@ -12,31 +12,48 @@
     />
     <!--Favicon-->
     <link rel="icon" href="images/favicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <!--Bootstrap-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-
+    <!--Animate CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"
+    />
+    <!--Morphext-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Morphext/2.4.4/morphext.css"
+    />
     <!--Adobe Typekit/Google Fonts-->
     <link
       href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,800|Montserrat"
       rel="stylesheet"
     />
-
     <!--Custom Stylesheet-->
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <!--JavaScript-->
-    <script></script>
+    <!--jQuery-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!--Morphext JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Morphext/2.4.4/morphext.min.js"></script>
+
+    <script>
+      $(function() {
+        $("#js-rotating").Morphext({
+          animation: "fadeIn",
+          speed: 3000,
+          complete: function() {}
+        });
+      });
+    </script>
   </head>
   <body>
     <section class="wrapper">
@@ -75,16 +92,23 @@
         </nav>
       </header>
 
-      <section class="landing-intro">
+      <section>
         <img
           class="landing_image"
           src="images/landing_image.png"
           alt="girl at computer"
         />
-        <h1>Hi, I'm Diana.</h1>
+      </section>
+
+      <section>
         <h2>
-          I'm a Front-End Web Developer and UX Designer. I make
-          <span>beautiful</span> apps and websites.
+          <p>
+            Hi, I'm Diana. I'm a Front-End Web Developer and UX Designer. I make
+            apps and websites
+            <span id="js-rotating"
+              >beautiful., fast., responsive., simple., intuitive.</span
+            >
+          </p>
         </h2>
       </section>
 
@@ -146,11 +170,6 @@
       </section>
     </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
