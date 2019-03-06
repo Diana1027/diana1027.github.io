@@ -1,5 +1,5 @@
 .logo {
-  height: 50px;
+  height: 60px;
 }
 
 .nav-link,
@@ -28,6 +28,11 @@
   justify-content: flex-end;
 }
 
+.nav-item {
+  font-family: Fira Sans;
+  font-size: 1.2em;
+}
+
 #js-rotating {
   color: #a98ff9;
 }
@@ -48,4 +53,36 @@
   margin-left: 1.5em;
   font-family: Montserrat;
   font-size: 1.9em;
+}
+
+.fas.fa-heart {
+  color: red;
+}
+
+.about-heart {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  font-size: 1.4em;
+}
+.about {
+  font-family: Montserrat;
+  margin: 1em 10em 0em 10em;
+  font-size: 1.3em;
+}
+
+.landing-image {
+  margin-top: 1em;
+}
+
+.ux {
+  width: 25em;
+}
+
+.developer {
+  width: 25em;
 }
