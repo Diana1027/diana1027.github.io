@@ -1,0 +1,79 @@
+body {
+  font-family: Montserrat;
+}
+
+.logo {
+  height: 60px;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #000000;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em;
+}
+
+.nav-link:hover {
+  color: #a98ff9;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background: #a98ff9;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-item {
+  font-family: Fira Sans;
+  font-size: 1.2em;
+}
+
+.fas.fa-bars {
+  color: white;
+}
+
+.fa-github {
+  color: black;
+  padding: 0.2em;
+}
+
+.fa-github:hover {
+  color: white;
+}
+
+.fa-linkedin:hover {
+  color: white;
+}
+
+footer {
+  background-color: #a98ff9 !important;
+  margin-top: 3em;
+}
+
+.copyright {
+  color: white;
+  margin-left: 1em;
+}
+
+h2 {
+  text-decoration: underline;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  margin-top: 2em;
+}
+
+.card-deck {
+  margin-top: 2em;
+}

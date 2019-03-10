@@ -190,13 +190,36 @@ h5 {
   background: transparent;
   transition: all 0.3s ease 0s;
   margin-top: 1em;
-  border: 2px solid rgba(108, 89, 179, 0.75);
-  color: rgba(108, 89, 179, 0.75);
+  border: 2px solid #a98ff9;
+  color: #a98ff9;
   font-size: 1.5em;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background: rgba(108, 88, 179, 0.75);
-  border: 2px solid rgba(108, 89, 179, 0.75);
+  background: #a98ff9;
+  border: 2px solid #a98ff9;
+}
+
+.fa-github {
+  color: black;
+  padding: 0.2em;
+}
+
+.fa-github:hover {
+  color: white;
+}
+
+.fa-linkedin:hover {
+  color: white;
+}
+
+footer {
+  background-color: #a98ff9 !important;
+  margin-top: 3em;
+}
+
+.copyright {
+  color: white;
+  margin-left: 1em;
 }
