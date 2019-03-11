@@ -77,3 +77,16 @@ h3 {
 .card-deck {
   margin-top: 2em;
 }
+
+.copyright {
+  color: white;
+  margin-left: 1em;
+}
+
+.fa-linkedin {
+  padding: 0.2em;
+}
+
+.copyright {
+  padding: 1em;
+}
